@@ -28,7 +28,7 @@ boost::math::tuple<mp_type, mp_type, mp_type> generate(mp_type a)
    return boost::math::make_tuple(a, ts, tc);
 }
 
-int cpp_main(int argc, char*argv [])
+int cpp_main(int argc, const char** argv)
 {
    parameter_info<mp_type> arg1, arg2;
    test_data<mp_type> data;
